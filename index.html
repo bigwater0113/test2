@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript" src="js/jquery-3.5.1.js">
+
+</script>
+</head>
+<body>
+	<h1>hello 안녕하세요</h1>
+	
+	<div style="width:300px;height:300px;background-color: yellow;" id="div1"></div>
+	<button id="btn1">버튼</button>
+	
+</body>
+<script>
+	$(function(){
+		$("#btn1").click(function(){
+			$("#div1").slideToggle();
+			
+		})
+	})
+</script>
+</html>
